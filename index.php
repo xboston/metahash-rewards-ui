@@ -2,7 +2,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-use MetahashPro\Node;
+use MetahashPro\Rewards;
 
 // Set timezone to match Metahash.
 date_default_timezone_set('UTC');
@@ -27,9 +27,9 @@ $nodeInfo = [
     'name' => 'Daisy || metahashpro.com || EU || 95% Daily',
 ];
 
-$node = new Node();
-$node->debug = true; // no payments
-$payees = $node->getPayees($nodes);
+$rewards = new Rewards();
+$rewards->debug = true; // no payments
+$payees = $rewards->getPayees($nodes);
 
 ?>
 <!DOCTYPE html>

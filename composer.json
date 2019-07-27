@@ -1,5 +1,5 @@
 {
     "require": {
-        "wpbc/metahash-rewards": "0.1.*"
+        "wpbc/metahash-rewards": "0.2.*"
     }
 }

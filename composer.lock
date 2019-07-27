@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50ef00ccc6553df3008ff9d6e6687e99",
+    "content-hash": "7c81b8f6d6e2763908625ce6bb34b64d",
     "packages": [
         {
             "name": "fgrosse/phpasn1",
@@ -426,16 +426,16 @@
         },
         {
             "name": "wpbc/metahash-rewards",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WPBC/metahash-rewards.git",
-                "reference": "cbdee85bba7f71b8700689837d7f8ee760a216a6"
+                "reference": "f68e45c47cbabb0adc56269ef972f782da6de931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WPBC/metahash-rewards/zipball/cbdee85bba7f71b8700689837d7f8ee760a216a6",
-                "reference": "cbdee85bba7f71b8700689837d7f8ee760a216a6",
+                "url": "https://api.github.com/repos/WPBC/metahash-rewards/zipball/f68e45c47cbabb0adc56269ef972f782da6de931",
+                "reference": "f68e45c47cbabb0adc56269ef972f782da6de931",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
             "keywords": [
                 "metahash"
             ],
-            "time": "2019-07-27T20:57:07+00:00"
+            "time": "2019-07-27T21:28:00+00:00"
         },
         {
             "name": "xboston/metahash",
