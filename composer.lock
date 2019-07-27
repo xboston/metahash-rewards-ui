@@ -426,16 +426,16 @@
         },
         {
             "name": "wpbc/metahash-rewards",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WPBC/metahash-rewards.git",
-                "reference": "f68e45c47cbabb0adc56269ef972f782da6de931"
+                "reference": "6441c896d57d54cb09b8540e65e7502fb2badc92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WPBC/metahash-rewards/zipball/f68e45c47cbabb0adc56269ef972f782da6de931",
-                "reference": "f68e45c47cbabb0adc56269ef972f782da6de931",
+                "url": "https://api.github.com/repos/WPBC/metahash-rewards/zipball/6441c896d57d54cb09b8540e65e7502fb2badc92",
+                "reference": "6441c896d57d54cb09b8540e65e7502fb2badc92",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
             "keywords": [
                 "metahash"
             ],
-            "time": "2019-07-27T21:28:00+00:00"
+            "time": "2019-07-27T22:12:01+00:00"
         },
         {
             "name": "xboston/metahash",
