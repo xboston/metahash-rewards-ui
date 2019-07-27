@@ -4,7 +4,7 @@
 
 - PHP 7.1+
 - composer
-- wpbc/metahash-rewards 0.1.*
+- wpbc/metahash-rewards 0.2.*
 
 ### Installation
 
