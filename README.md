@@ -1,1 +1,4 @@
 # metahash-rewards-ui
+
+# Installation
+```
