@@ -28,7 +28,7 @@ $ php -S localhost:8000
 ```
 
 4. Open in browser: http://localhost:8000/
-
+![metahash-rewards-ui](https://raw.githubusercontent.com/xboston/metahash-rewards-ui/master/media/metahash-rewards-ui.png)
 
 ### License
 

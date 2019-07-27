@@ -28,8 +28,7 @@ $nodeInfo = [
 ];
 
 $node = new Node();
-$node->debug = true;
-
+$node->debug = true; // no payments
 $payees = $node->getPayees($nodes);
 
 ?>
@@ -37,7 +36,7 @@ $payees = $node->getPayees($nodes);
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $nodeInfo['name'] ?></title>
+    <title><?php echo $nodeInfo['name'] ?> - Metahash Rewards UI</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
