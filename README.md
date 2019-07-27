@@ -17,7 +17,7 @@ $ cd path/to/your/folder/metahash-rewards-ui/
 2. Clone repository by typing the following in your terminal:
 
 ```bash
-$ git@github.com:xboston/metahash-rewards-ui.git
+$ git clone git@github.com:xboston/metahash-rewards-ui.git .
 ```
 
 3. Run the following command in your terminal.
