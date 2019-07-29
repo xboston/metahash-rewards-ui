@@ -14,17 +14,17 @@ ini_set('memory_limit', '1024M');
 $superAddresses = [
     '0x00fa2a5279f8f0fd2f0f9d3280ad70403f01f9d62f52373833' => 99, // Pays 99% to specified address.
 ];
+// Set ui information.
+$nodeInfo = [
+    'name' => 'Daisy || metahashpro.com || EU || 95% Daily',
+];
 // Set node information.
 $nodes = [
     'address'        => '0x00d5b768fee94349103e2f69484dff207a3bbb2a5077defd6e', // Node address.
     'private_key'    => '', // Node private Key.
     'data'           => '', // Data sent with transaction.
-    'percentage'     => 10, // Default percentage paid to delegators.
+    'percentage'     => 95, // Default percentage paid to delegators.
     'superAddresses' => $superAddresses,
-];
-// Set ui information.
-$nodeInfo = [
-    'name' => 'Daisy || metahashpro.com || EU || 95% Daily',
 ];
 
 $rewards = new Rewards();
@@ -55,7 +55,8 @@ $payees = $rewards->getPayees($nodes);
                 <tr>
                     <th>Address</th>
                     <th>Delegated</th>
-                    <th>Reward</th>
+                    <th>System Reward</th>
+                    <th>Due (bonus from node)</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -65,6 +66,7 @@ $payees = $rewards->getPayees($nodes);
                                target="_blank"><?php echo $delegator['address'] ?></a></td>
                         <td><?php echo $delegator['delegated'] / 1e6 ?></td>
                         <td><?php echo $delegator['reward'] / 1e6 ?></td>
+                        <td><?php echo $delegator['due'] / 1e6 ?></td>
                     </tr>
                 <?php endforeach ?>
                 </tbody>
